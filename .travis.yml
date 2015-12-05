@@ -15,5 +15,6 @@ before_install:
   - mix archive.install --force https://github.com/phoenixframework/phoenix/releases/download/v${PHOENIX_VERSION}/phoenix_new-${PHOENIX_VERSION}.ez
 
 install:
+  - mix local.hex --force
   - mix deps.get
   - mix octo.create
