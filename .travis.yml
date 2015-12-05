@@ -17,4 +17,4 @@ before_install:
 install:
   - mix local.hex --force
   - mix deps.get
-  - mix octo.create
+  - mix ecto.create
