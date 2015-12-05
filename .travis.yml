@@ -8,6 +8,12 @@ elixir:
 otp_release:
   - '18.1'
 
+cache:
+  directories:
+    - _build
+    - db
+    - deps
+
 env:
   - PHOENIX_VERSION='1.0.4'
 
