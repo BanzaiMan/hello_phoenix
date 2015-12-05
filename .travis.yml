@@ -1,6 +1,6 @@
 language: elixir
 
-sudo: required
+sudo: false
 
 elixir:
   - '1.1'
