@@ -1,0 +1,17 @@
+language: elixir
+
+elixir:
+  - '1.1'
+
+otp_release:
+  - '17.3'
+
+env:
+  - PHOENIX_VERSION='1.0.4'
+
+before_install:
+  - mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v${PHOENIX_VERSION}/phoenix_new-${PHOENIX_VERSION}.ez
+
+install:
+  - mix deps.get
+  - mix octo.create
