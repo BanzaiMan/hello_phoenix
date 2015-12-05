@@ -4,7 +4,7 @@ elixir:
   - '1.1'
 
 otp_release:
-  - '17.3'
+  - '18.1'
 
 env:
   - PHOENIX_VERSION='1.0.4'
