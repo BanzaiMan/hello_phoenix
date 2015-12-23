@@ -15,7 +15,7 @@ cache:
     - deps
 
 env:
-  - PHOENIX_VERSION='1.0.4'
+  - PHOENIX_VERSION='1.1.0'
 
 before_install:
   - mix archive.install --force https://github.com/phoenixframework/phoenix/releases/download/v${PHOENIX_VERSION}/phoenix_new-${PHOENIX_VERSION}.ez
